@@ -1,0 +1,77 @@
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+hr{
+    width: 50%;
+}
+
+  h2 {
+      font-family: 'Pacifico', cursive;
+      
+  }
+
+  .boxx {
+    background-image: url("https://i.pinimg.com/originals/da/8f/62/da8f628d145d6f70552da8e1cd54005b.jpg");
+    background-color: #4a4646;
+      margin: 2rem auto;
+      width: 89%;
+      height: auto;
+      box-shadow: 10px 10px 10px 10px #c2b8d8;
+      border-color: #c2b8d8;
+      color: white;
+
+  }
+
+
+  img {
+      margin-left: 1.3rem;
+      margin-bottom: 2rem;
+      margin-top: 2rem;
+      max-width: 300px;
+      max-height: 250px;
+  }
+
+  .name {
+
+      margin-top: 20%;
+
+  }
+
+  .page {
+      width: 50%;
+      border-color: #c2b8d8;
+      font-family: 'Pacifico', cursive;
+      
+  }
+
+  .col-3>img {
+      object-fit: contain;
+  }
+
+  img{
+    margin-right: 4rem;
+    margin-left: 4rem;
+    border: #e9e4f0;
+    
+  }
+.hey{
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+
+/***************************/
+
+.inside{
+    margin-left: 3rem;
+}
+.card{
+     color: black;
+     width: 80%;
+     margin-bottom: 2rem;
+}
+
+.card img{
+   height: 13rem;
+   width: 16rem;
+}
