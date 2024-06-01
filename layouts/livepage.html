@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tribute</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+    </script>
+        <link href="../css/live.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="field">
+        <!-- <div class="label">Name</div> -->
+        <!-- <input id="fetchfname" type="text" required /> -->
+        <button onclick="get()" class="submit2">Generate</button>
+    </div>
+    <div class="boxx">
+        <div class="inside">
+            <div class="row">
+                <br><br>
+                <h2 style="text-align: center;">In loving memory of<br><br>
+                    <div id="fname">Atal Bihari</div>
+                    <div id="lname"> Vajpayee</div>
+                </h2>
+                <div class="col-sm-4">
+                    <img id="profilepic" class="topp"
+                        src="..\img\Atal1.jpg">
+                </div>
+                <div class="col-sm-4">
+
+                </div>
+                <div class="col-sm-4">
+                    <!-- <img src="../img/sample-qr.png" alt="qr-code" height="150px" width="150px"> -->
+                    <div  style="padding: px; width: 160px ; height: 160px; background-color:while , border 2px solid purple"><div id="qr-code"></div>
+                        
+                    </div> 
+                    <p class="hey">He was affectionately known as the "People's Prime Minister," appreciated for his humility, integrity, and vision for India.</p>
+                </div>
+            </div>
+
+
+
+
+            <h2>About</h2>
+            <P>
+                <strong>Name </strong>
+            <div id="fname1"> Atal Bihari</div>
+            <div id="lname1">Vajpayee</div> <br>
+            <strong>Date of Birth </strong>
+            <div id="dob">December 25, 1924</div><br>
+            <strong>Left Us On </strong>
+            <div id="dod">August 16, 2018 </div><br>
+            <strong>Hometown </strong>
+            <div id="hometown">Gwalior, Madhya Pradesh</div><br>
+            <strong>Age </strong>
+            <div id="age">93</div><br>
+
+            </P><br>
+            <hr>
+
+            <br>
+
+
+            <h2>Family</h2>
+            <P>
+                <strong>
+                    <div id="relation">Brother</div>
+                </strong>
+            <div id="relname">Prem Bihari</div><br>
+            <strong>Daughter</strong> Namita Bhattacharya<br>
+
+            </P>
+
+            <hr>
+            <h2>Funeral Events</h2>
+            <P>
+                <strong>Place</strong> Smriti Sthal, New Delhi, India<br>
+                <strong>Time</strong> 4 pm EST<br>
+
+            </P>
+
+            <hr>
+
+            <h2>Images</h2><br><br>
+
+
+            <div class="card flex-row"><img id="refimg1"class="card-img-left example-card-img-responsive"
+                src="..\img\Atal2.jpg">
+
+                <div class="card-body">
+                    <h4 class="card-title h5 h4-sm">Our Forever</h4>
+                    <p id="imgtext1" class="card-text">Atal ji means so much to everyone of us. A guide, an inspiration & a giant among giants. His contribution to India is invaluable.</p>
+                </div>
+            </div>
+
+            <div class="card flex-row"><img id="refimg2" class="card-img-left example-card-img-responsive"
+                        src="..\img\Atal3.avif">
+
+            <div class="card-body">
+                <h4 class="card-title h5 h4-sm">Our Memories</h4>
+                <p id="imgtext2" class="card-text">Atal Bihari Vajpayee ji will live in hearts and minds of every Indian</p>
+            </div>
+        </div>
+
+    <div class="card flex-row"><img id="refimg3" class="card-img-left example-card-img-responsive"
+        src="..\img\Atal4.avif">
+        <div class="card-body">
+        <h4 class="card-title h5 h4-sm">Memories Together</h4>
+        <p id="imgtext3"class="card-text">A leader for the ages – ahead of his times</p>
+    </div>
+</div>
+
+            <hr>
+
+            <h2>Videos</h2>
+            <P>
+
+
+            </P>
+            <hr>
+
+            <h2>Tribute Messages</h2><br /><br>
+            <P style="width:75%">
+            <div id="eulogy">
+                “A life is to be judged not just by the extent of grief that follows when its light goes out. It is also to be measured by<br>
+                 the lasting impact on the lives of people and the course of time.For that reason, Atalji was <br>
+                 a true Ratna of Bharat.
+                 His spirit will continue to guide us as we build the New India of his dreams.”
+                <br>
+                - Narendra Modi
+            </div>
+            </P>
+            <hr><br>
+
+            <button type="button" class="btn btn-outline-light">Add your memories</button>
+
+            <br><br>
+
+            <div class="page">
+                <h3><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                        Administrator- </span><br><br>Umesh Mali</h3>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="../js/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
